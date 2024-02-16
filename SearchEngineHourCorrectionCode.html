@@ -1,0 +1,56 @@
+<!-- Opening hours involves embedding structured data coding, such as from schema.org.  An example of how to implement this can be seen in entries in libraries.org.  The Google Structured Data Testing Tool shows the results:
+https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Flibrarytechnology.org%2Flibrary%2F30612 
+
+A sample entry displaying opening hours can be seen here:
+https://librarytechnology.org/library/30612 using the below sample code-->
+
+
+<div itemscope="itemscope" itemtype="https://schema.org/Library">
+…
+<div id="libraryhours"> 
+<table border="1"><tr><td> 
+<table> 
+<tr><th style="text-align: center" colspan="3">Library Hours</th></tr> 
+<tr><th>Day<hr /></th><th>Open<hr /></th><th>Close<hr /></th> </tr> 
+<tr> 
+<th>Sunday</th>
+<time itemprop="openingHours" datetime ="Su 13:00-21:00"></time> 
+<td>1:00&nbsp;pm</td><td>9:00&nbsp;pm</td> 
+</tr> 
+<tr> 
+<th>Monday</th>
+<time itemprop="openingHours" datetime ="Mo 9:00-21:00"></time> 
+<td>9:00&nbsp;am</td><td>9:00&nbsp;pm</td> 
+</tr> 
+<tr> 
+<th>Tuesday</th>
+<time itemprop="openingHours" datetime ="Tu 9:00-21:00"></time> 
+<td>9:00&nbsp;am</td><td>9:00&nbsp;pm</td> 
+</tr> 
+<tr> 
+<th>Wednesday</th>
+<time itemprop="openingHours" datetime ="We 9:00-21:00"></time> 
+<td>9:00&nbsp;am</td><td>9:00&nbsp;pm</td> 
+</tr> 
+<tr> 
+<th>Thursday</th>
+<time itemprop="openingHours" datetime ="Th 9:00-21:00"></time> 
+<td>9:00&nbsp;am</td><td>9:00&nbsp;pm</td> 
+</tr> 
+<tr> 
+<th>Friday</th>
+<time itemprop="openingHours" datetime ="Fr 9:00-17:00"></time> 
+<td>9:00&nbsp;am</td><td>5:00&nbsp;pm</td> 
+</tr> 
+<tr> 
+<th>Saturday</th>
+<time itemprop="openingHours" datetime ="Sa 13:00-17:00"></time> 
+<td>1:00&nbsp;pm</td><td>5:00&nbsp;pm</td> 
+</tr> 
+</table> 
+</div> 
+</div> <!-- End libraryhours div --> 
+
+</div> <!-- End microdata itemscope div -->
+
+
