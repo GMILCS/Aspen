@@ -1,0 +1,88 @@
+/* ------------------------------ ACCESSIBLE BROWSE CATEGORIES ------------------------------ */
+/* This is Nashville's custom CSS */
+
+#browse-category-feed:first-child {
+    margin-top: 2em;
+}
+
+.browse-category-group-heading {
+    border-bottom: 3px solid #0D5C63; /*The line in between the browse categories*/
+    padding-bottom: 15px;
+}
+
+.browse-category-feed-item .browse-dismiss {
+    background-color: #f1f1f1 !important; /*The background color of the dismiss box */
+    color: #333333 !important; /*The text color in the dismiss box*/
+    border-color: #cccccc; /*The outline of the dismiss box*/
+    border-radius: 5px;
+}
+
+#browse-category-feed h2 i.fas.fa-search {
+    display: none;
+}
+
+.browse-category-group-heading h2 {
+    margin: 0;
+    color: #44A1A0; /*The heading color */
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.browse-category.selected, .browse-category.selected:hover, #browse-sub-category-menu button.selected, #browse-sub-category-menu button.selected:focus, #browse-sub-category-menu button.selected:hover, #browse-sub-category-menu button:focus, #browse-sub-category-menu button:hover, .manual [role="tab"]:focus, .manual [role="tab"]:hover, .manual [role="tab"][aria-selected="true"], .manual [role="tab"][aria-selected="true"] + .more-browse-sub-category + .hide-browse-sub-category, .manual .hide-browse-sub-category:hover, .manual .hide-browse-sub-category:focus, .manual [role="tab"][aria-selected="true"] + .more-browse-sub-category, .manual .more-browse-sub-category:hover, .manual .more-browse-sub-category:focus {
+    border-color: #ffffff !important; /*Boarder color of the selected sub browse category button*/
+    background-color: #0D5C63 !important; /*Background color of the selected sub-browse category */
+    color: #ffffff !important; /*Text color of the selected sub-browse category*/
+}
+
+.browse-category, #browse-sub-category-menu button, .manual [role="tab"], .manual .hide-browse-sub-category, .manual .more-browse-sub-category {
+    background-color:#f9f9f9 !important; /*Background color of non-selected sub-browse category*/
+    border-color: #0D5C63 !important; /*Boarder color of non-selected sub-browse category */
+    color: #0D5C63 !important; /*Text color of non-selected sub-browse category */
+}
+
+button.more-browse-sub-category > .fa-search:before {
+    content: "\f35d";
+}
+
+.browse-category-feed-item .tabs .btn-group {
+    padding: 3px;
+}
+
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3rem;
+    top: 35%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000 !important; /*Swipe arrow color*/
+    background-color: #44A1A0 !important; /*Swipe circle color */
+
+}
+
+.swiper-button-prev {
+    left: 0px;
+}
+.swiper-button-next {
+    right: 0px;
+}
+
+/* this style is an attempt to show more books by making the covers smaller */
+.swiper-slide {
+    max-width: 170px;
+}
+
+*-------------------END ACCESSABLE BROWSE CATEGORIES ---------------------------------------*/
