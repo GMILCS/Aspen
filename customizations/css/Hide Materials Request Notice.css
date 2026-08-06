@@ -1,0 +1,4 @@
+/**Hide Materials Request Notice*/
+div#materialsRequestSummary {
+display: none;
+}
