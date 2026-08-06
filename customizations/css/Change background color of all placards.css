@@ -1,0 +1,4 @@
+/** Change background color of all placards **/
+.placard {
+background-color: #FFFFFF; /*This changes it to pure white*/
+}
