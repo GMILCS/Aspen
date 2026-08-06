@@ -1,0 +1,6 @@
+/*Makes the cover image larger when hover over in browse categoru*/
+/*zoom on hover browse image*/
+.browse-thumbnail img:hover {
+  transition: all .3s ease-in-out;
+  transform: scale(1.2);
+}
